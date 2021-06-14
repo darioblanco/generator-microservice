@@ -1,0 +1,16 @@
+**/.cache/**
+**/.errors/**
+**/.vscode/**
+**/.yarn/**
+**/build/**
+**/coverage/**
+**/dist/**
+**/lib/**
+**/public/**
+**/templates/**
+**/typedocs/**
+**/*.css
+**/*.json
+**/*.md
+**/*.svg
+**/*.yaml

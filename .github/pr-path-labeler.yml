@@ -1,0 +1,11 @@
+docs:
+  - "**/*.md"
+
+oclif:
+  - "generators/oclif/**/*"
+
+nestjs:
+  - "generators/nestjs/**/*"
+
+react:
+  - "generators/react/**/*"

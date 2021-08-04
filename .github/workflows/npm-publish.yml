@@ -1,5 +1,5 @@
 name: NPM Publish
-true:
+"on":
   release:
     types:
     - published
@@ -39,7 +39,7 @@ jobs:
     - name: Use Node.js
       uses: actions/setup-node@v2
       with:
-        node-version: 13.x
+        node-version: 14.17.3
         registry-url: https://registry.npmjs.org
         scope: '@kirinus'
     - name: Publish the package
